@@ -5,7 +5,7 @@ dns.setServers(['1.1.1.1', '8.8.8.8']); // Cloudflare & Google DNS
 
 require('dotenv').config();
 const mongoose = require('mongoose');
-const Article = require('./models/article');
+const Article = require('./models/Article');
 
 const articles = [
   {
