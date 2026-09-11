@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const Article = require('../models/article');
+const Article = require('../models/Article');
 const { createArticleSchema, updateArticleSchema } = require('../validations/articleValidation');
 
 // --- GET all articles ---
